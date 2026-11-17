@@ -1,0 +1,13 @@
+
+print("Happy or Sad Detector")
+
+sentence = input("Enter a sentence: ")
+
+if "happy" in sentence:
+    print("The sentence is HAPPY")
+
+elif "sad" in sentence:
+    print("The sentence is SAD")
+
+else:
+    print("The sentence is NEUTRAL")
